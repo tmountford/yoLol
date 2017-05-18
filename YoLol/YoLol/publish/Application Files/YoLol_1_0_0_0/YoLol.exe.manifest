@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="YoLol.exe" version="1.0.0.0" publicKeyToken="ebf5401488be8a18" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="PogChamp.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="YoLol" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="YoLol.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YoLol.exe" size="433048">
+      <assemblyIdentity name="YoLol" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kkEUQaJ+GQ0RSlH3klt6AXVe48okut2b+omVGBpNlNA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PogChamp.ico" size="209762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fejpKa/81kpVst8Zm2+CniKbRA0VHjfT1nE1O0rd0mM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Xml\Players.xml" size="323" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5gOP8fX+xIVXhsPFJF+cynTHdKM81+eag1AegAfc5pc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="YoLol.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=KMD\z6tmf" issuerKeyHash="c3bd408cffd9dc8db3acd36f1d5e08050a0b14e6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vqGqCG7qGhir5Y13VJ7xtY2WN+Tcbt39MwzxSvy/UNg=</DigestValue></Reference></SignedInfo><SignatureValue>gVtPKN6xo6HPyJLGmn1nmpTru4s8VfCgBzomcR11e+yOro8IUu97tw9yw1zdm+Y2O/xg4gb5OkoPRn3sqTNfBFtnmEK91HwheoKrP+Mzobb9jGMtFm1JkBDJqOeazRpYVxbL6RsvXEkltfuiKUImRu7DWTJ/0e6+eqiBtNUWNQg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0G0mDnKk8P3zPTYkN3aytSjqTSjbJ54SWqCE9fMzMgLGkrOz7BoSRQQfK1zuSQrghBwqYtS//UaplV9jkvCQqJeEbyvqK5tRyPdjtbwTyU4F/HfBZYr6tpiB6lIyiHRwKJXA9vReIL+jZpi37HrffdUjhhZ0q13ZzI5a9slvqWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d850bffc4af10c33fddd6edce437968db5f19e54778de5ab181aea6e08aaa1be" Description="" Url=""><as:assemblyIdentity name="YoLol.exe" version="1.0.0.0" publicKeyToken="ebf5401488be8a18" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KMD\z6tmf</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ISJrRcu1jjABJ90ctVhyOGDIqcoiGKldjOMJLZL72Ls=</DigestValue></Reference></SignedInfo><SignatureValue>snNELzkbNZ+e2kfYpZ3F3YrZwYoOCdw5zpCbfc0z0FXbXSbx6Cga8/Aa/y8Ky6xTXLeKbzLIUmYJPR/UWc1ptrA5MT3cHe8MKbtWfSKmSxE2Syvcp53QnPxRBrnXuYI9uSEyXEJaOdSKYO96GTp5vCeQdarb3SfFwCBeqrCbrFM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0G0mDnKk8P3zPTYkN3aytSjqTSjbJ54SWqCE9fMzMgLGkrOz7BoSRQQfK1zuSQrghBwqYtS//UaplV9jkvCQqJeEbyvqK5tRyPdjtbwTyU4F/HfBZYr6tpiB6lIyiHRwKJXA9vReIL+jZpi37HrffdUjhhZ0q13ZzI5a9slvqWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQf3axu047TKtMxextNK9FQjANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIASwBNAEQAXAB6ADYAdABtAGYwHhcNMTcwNTA1MTMzOTI3WhcNMTgwNTA1MTkzOTI3WjAdMRswGQYDVQQDHhIASwBNAEQAXAB6ADYAdABtAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANBtJg5ypPD98z02JDd2srUo6k0o2yeeElqghPXzMzICxpKzs+waEkUEHytc7kkK4IQcKmLUv/1GqZVfY5LwkKiXhG8r6iubUcj3Y7W8E8lOBfx3wWWK+raYgepSMoh0cCiVwPb0XiC/o2aYt+x6333VI4YWdKtd2cyOWvbJb6llAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAqIqdTqmHF8zfsGGng3lKKp/qjrFnloKMev7ep7ZDao65zISjee8Gpov6sBjCuXR/Eiw9CdsYJylv2Lx88+ARLNExAk08E1eK2oK+9cGxLMDJRmKYiGbpHm1sNm2W7g/wIR7WaoY1NfvM73vgmYE3I3z6AcVNfbO1FfncrGvB2Ww=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

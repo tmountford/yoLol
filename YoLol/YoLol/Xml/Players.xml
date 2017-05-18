@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Players>
+  <Player>
+    <Name>Doublelift</Name>
+    <Role>ADC</Role>
+    <Region>NA</Region>
+    <Team>TSM</Team>
+  </Player>
+  <Player>
+    <Name>Wildturtle</Name>
+    <Role>ADC</Role>
+    <Region>NA</Region>
+    <Team>TSM</Team>
+  </Player>
+  <Player>
+    <Name>Hauntzer</Name>
+    <Role>Top</Role>
+    <Region>NA</Region>
+    <Team>TSM</Team>
+  </Player>
+  <Player>
+    <Name>Bjergsen</Name>
+    <Role>Mid</Role>
+    <Region>NA</Region>
+    <Team>TSM</Team>
+  </Player>
+  <Player>
+    <Name>Svenskeren</Name>
+    <Role>Jungle</Role>
+    <Region>NA</Region>
+    <Team>TSM</Team>
+  </Player>
+  <Player>
+    <Name>BioFrost</Name>
+    <Role>Support</Role>
+    <Region>NA</Region>
+    <Team>TSM</Team>
+  </Player>
+   <Player>
+    <Name>Per</Name>
+    <Role>Noob</Role>
+    <Region>EUN</Region>
+    <Team>Team Per</Team>
+  </Player>
+</Players>
