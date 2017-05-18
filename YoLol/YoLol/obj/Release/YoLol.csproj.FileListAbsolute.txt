@@ -34,3 +34,16 @@ P:\Private\yolol\YoLol\YoLol\bin\Release\bananabjerg.jpg
 C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\bin\Release\YoLol.exe.config
 C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.exe
 C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.pdb
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\bin\Release\bananabjerg.jpg
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\bin\Release\Players.xml
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\bin\Release\YoLol.exe.manifest
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\bin\Release\YoLol.application
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\bin\Release\YoLol.exe
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\bin\Release\YoLol.pdb
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.csprojResolveAssemblyReference.cache
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.Form1.resources
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.Properties.Resources.resources
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.csproj.GenerateResource.Cache
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.TrustInfo.xml
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.exe.manifest
+C:\Users\Z6TMF\Desktop\yoLol\yoLol\YoLol\YoLol\obj\Release\YoLol.application

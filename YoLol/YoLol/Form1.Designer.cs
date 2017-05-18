@@ -106,6 +106,8 @@ namespace YoLol
             // dissing
             // 
             this.dissing.AutoSize = true;
+            this.dissing.Checked = true;
+            this.dissing.CheckState = System.Windows.Forms.CheckState.Checked;
             this.dissing.Location = new System.Drawing.Point(15, 162);
             this.dissing.Name = "dissing";
             this.dissing.Size = new System.Drawing.Size(50, 17);
